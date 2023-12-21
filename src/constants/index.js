@@ -28,15 +28,19 @@ import {
 export const navLinks = [
   {
     id: "about",
-    title: "About",
+    title: "Sobre Mí",
   },
   {
     id: "work",
-    title: "Work",
+    title: "Experiencia",
+  },
+  {
+    id: "project",
+    title: "Proyectos",
   },
   {
     id: "contact",
-    title: "Contact",
+    title: "Contacto",
   },
 ];
 
