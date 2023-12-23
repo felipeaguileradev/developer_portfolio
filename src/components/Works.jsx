@@ -61,8 +61,8 @@ const Works = () => {
   return (
     <>
       <motion.div variants={textVariant()}>
-        <p className={styles.sectionSubText}>My Work</p>
-        <h2 className={styles.sectionHeadText}>Projects.</h2>
+        <p className={styles.sectionSubText}>Mi Trabajo</p>
+        <h2 className={styles.sectionHeadText}>Proyectos.</h2>
       </motion.div>
 
       <div className="w-full flex">
@@ -70,10 +70,9 @@ const Works = () => {
           variants={fadeIn("", "", 0.1, 1)}
           className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]"
         >
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias,
-          beatae distinctio perspiciatis, dolores nobis deleniti ad, ipsum fugit
-          facilis consequatur porro itaque. Saepe ratione harum maxime ut in.
-          Deleniti, id.
+          Como desarrollador web y de aplicaciones móviles, he emprendido varios
+          proyectos personales que destacan mi habilidad y pasión por la
+          creación de soluciones digitales.
         </motion.p>
       </div>
 
