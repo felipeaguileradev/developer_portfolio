@@ -30,6 +30,12 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
+import unity3d from "./tech/unity3d.svg";
+import laravel from "./tech/laravel.svg";
+import flutter from "./tech/flutter.svg";
+import spbox from "./company/spbox_logo.jpg";
+import gatblac from "./company/gatblac_logo.jpg";
+
 export {
   logo,
   backend,
@@ -59,4 +65,9 @@ export {
   carrent,
   jobit,
   tripguide,
+  unity3d,
+  laravel,
+  spbox,
+  gatblac,
+  flutter,
 };

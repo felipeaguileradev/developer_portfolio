@@ -30,18 +30,19 @@ const About = () => {
   return (
     <>
       <motion.div variants={textVariant()}>
-        <p className={styles.sectionSubText}>Introduction</p>
-        <h2 className={styles.sectionHeadText}>Overview.</h2>
+        <p className={styles.sectionSubText}>Introducción</p>
+        <h2 className={styles.sectionHeadText}>Descripción.</h2>
       </motion.div>
 
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quia ad
-        excepturi temporibus saepe fuga quos, recusandae esse itaque magnam
-        placeat voluptatibus odit in, et architecto minus sint voluptatum, ipsa
-        rem.
+        Mi pasión por el desarrollo web, tanto en el Frontend como en el
+        Backend, es innegable. El mundo del desarrollo móvil también despierta
+        mi entusiasmo y me impulsa a crecer constantemente en esta industria.
+        Además, cuento con experiencia en la creación de aplicaciones para
+        escritorio y he explorado el desarrollo de videojuegos.
       </motion.p>
       <div className="mt-20 flex flex-wrap gap-10">
         {services.map((service, index) => (
