@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import { Tilt } from "react-tilt";
+import { HiEye } from "react-icons/hi";
 import { styles } from "../styles";
 import { github } from "../assets";
 import { SectionWrapper } from "../hoc";
@@ -13,9 +14,25 @@ const ProjectCard = ({
   tags,
   image,
   source_code_link,
+  web_url,
+  level,
 }) => {
+  const setLevel = () => {
+    switch (level) {
+      case "Fácil":
+        return styles.badgeEasy;
+      case "Medio":
+        return styles.badgeMedium;
+      case "Difícil":
+        return styles.badgeDifficult;
+
+      default:
+        return "";
+    }
+  };
+
   return (
-    <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
+    <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.7)}>
       <Tilt
         options={{ max: 45, scale: 1, speed: 450 }}
         className="bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full"
@@ -38,10 +55,25 @@ const ProjectCard = ({
               />
             </div>
           </div>
+          {web_url !== "" && (
+            <div className="absolute top-12 right-0 flex justify-end m-3 card-img_hover">
+              <div
+                onClick={() => window.open(web_url, "_blank")}
+                className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
+              >
+                <HiEye />
+              </div>
+            </div>
+          )}
         </div>
 
         <div className="mt-5">
-          <h3 className="text-white font-bold text-[24px]">{name}</h3>
+          <div className="flex flex-row justify-between items-center">
+            <h3 className="text-white font-bold text-[24px]">{name}</h3>
+            <div>
+              <span className={setLevel()}>{level}</span>
+            </div>
+          </div>
           <p className="mt-2 text-secondary text-[14px]">{description}</p>
         </div>
 

@@ -3,7 +3,7 @@ import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
 import web from "./web.png";
-import github from "./github.png";
+import github from "./tech/github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 
@@ -21,20 +21,18 @@ import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
-
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
-
 import unity3d from "./tech/unity3d.svg";
 import laravel from "./tech/laravel.svg";
 import flutter from "./tech/flutter.svg";
 import spbox from "./company/spbox_logo.jpg";
 import gatblac from "./company/gatblac_logo.jpg";
+
+import gifexpert from "./projects/gifexpertapp.png";
+import comifood from "./projects/comifood.png";
+import memorygame from "./projects/memory-game.png";
+import enviarmail from "./projects/proyecto-enviar-email.png";
+import tutorialpokebola from "./projects/tutorial_pokebola.png";
+import portafoliodemo from "./projects/portafolio-demo.png";
 
 export {
   logo,
@@ -58,16 +56,15 @@ export {
   tailwind,
   typescript,
   threejs,
-  meta,
-  shopify,
-  starbucks,
-  tesla,
-  carrent,
-  jobit,
-  tripguide,
   unity3d,
   laravel,
   spbox,
   gatblac,
   flutter,
+  gifexpert,
+  comifood,
+  memorygame,
+  enviarmail,
+  tutorialpokebola,
+  portafoliodemo,
 };

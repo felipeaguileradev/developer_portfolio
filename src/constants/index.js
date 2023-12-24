@@ -1,7 +1,5 @@
 import {
   mobile,
-  backend,
-  creator,
   web,
   javascript,
   typescript,
@@ -13,21 +11,18 @@ import {
   nodejs,
   mongodb,
   git,
-  figma,
-  docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
-  carrent,
-  jobit,
-  tripguide,
   threejs,
   unity3d,
   laravel,
   spbox,
   gatblac,
   flutter,
+  gifexpert,
+  comifood,
+  memorygame,
+  enviarmail,
+  tutorialpokebola,
+  portafoliodemo,
 } from "../assets";
 
 export const navLinks = [
@@ -242,67 +237,126 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Gif Expert App",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Pequeña aplicación creada con ReactJS + Custom Hooks, usando la api de Giphy",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
-      {
-        name: "mongodb",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "pink-text-gradient",
-      },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: gifexpert,
+    source_code_link: "https://github.com/felipeaguileradev/React-GifApp-Vite",
+    web_url: "https://felipeaguileradev.github.io/React-GifApp-Vite/",
+    level: "Fácil",
   },
   {
-    name: "Job IT",
-    description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+    name: "ComiFood",
+    description: "Proyecto básico sin funcionalidades de un carrito de compras",
     tags: [
       {
-        name: "react",
+        name: "html",
         color: "blue-text-gradient",
-      },
-      {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: jobit,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
       },
       {
         name: "css",
+        color: "green-text-gradient",
+      },
+      {
+        name: "javascript",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: comifood,
+    source_code_link: "https://github.com/felipeaguileradev/carrito-de-compras",
+    web_url: "https://felipeaguileradev.github.io/carrito-de-compras/",
+    level: "Fácil",
+  },
+  {
+    name: "Memory Game",
+    description:
+      "Proyecto del famoso juego de cartas conocido como Concentration o Memory",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "tailwindcss",
+        color: "green-text-gradient",
+      },
+    ],
+    image: memorygame,
+    source_code_link: "https://github.com/felipeaguileradev/Memory-Game-React",
+    web_url: "",
+    level: "Fácil",
+  },
+  {
+    name: "Formulario - Email",
+    description:
+      "Proyecto de formulario con validaciones y simulación de envío de email",
+    tags: [
+      {
+        name: "html",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "css",
+        color: "green-text-gradient",
+      },
+      {
+        name: "javascript",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: enviarmail,
+    source_code_link:
+      "https://github.com/felipeaguileradev/proyecto-enviar-email",
+    web_url: "https://felipeaguileradev.github.io/proyecto-enviar-email/",
+    level: "Fácil",
+  },
+  {
+    name: "Tutorial - Pokebola",
+    description:
+      "Este proyecto fue realizado con el fin de enseñar a utilizar HTML y CSS, dibujando una pokebola y explicando paso a paso como hacerlo.",
+    tags: [
+      {
+        name: "html",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "css",
+        color: "green-text-gradient",
+      },
+    ],
+    image: tutorialpokebola,
+    source_code_link: "https://github.com/felipeaguileradev/tutorial-pokebola",
+    web_url:
+      "https://www.youtube.com/watch?v=WV_7LZc-FCY&ab_channel=FelipeAguilera",
+    level: "Fácil",
+  },
+  {
+    name: "Portafolio demo",
+    description: "Proyecto básico del diseño de un portafolio",
+    tags: [
+      {
+        name: "html",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "css",
+        color: "green-text-gradient",
+      },
+      {
+        name: "javascript",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: portafoliodemo,
+    source_code_link: "https://github.com/felipeaguileradev/portafolio-demo",
+    web_url: "https://felipeaguileradev.github.io/portafolio-demo/",
+    level: "Fácil",
   },
 ];
 
